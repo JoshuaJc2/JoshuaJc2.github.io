@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background:#000000;
+    color:#ffffff; 
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23500076' fill-opacity='0.3'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+    font-size: 20px;
+    font-family: 'Nova Round', cursive;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.Principal{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0 ;
+}
+.Py{
+    width: 50px;
+}
+.Principal ul{
+    display: flex;
+}
+.Principal ul li{
+    padding: 40px
+}
+.Principal ul li a{
+    padding: 10px;
+}
+.Principal ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.Second{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.Second ul{
+    display:flex;
+}
+.Second ul li{
+    padding: 40px;
+}
+.Second ul li a{
+    padding: 10px;
+}
+.Second ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.Second ul.nav-menu2{
+    flex: 1;
+    margin-left: 20px;
+}
+hr{
+    margin: 10px 0;
+}
+.first{
+    width: 100%;
+    height: 580px;
+    font-size: 22px;
+    background: url("images/Bosques.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.two{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    height: 600px;
+    font-size: 32px;
+    color: #000000;
+    background:url("images/Paper.jpg") no-repeat center center/cover;
+}
+.tct{
+    cursor: pointer;
+    display: flex;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 16px;
+    background:rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #000000;
+    margin: 6px 0;
+}
+.tct:hover{
+    background: rgb(6, 173, 0);
+    border-color:rgb(6, 173, 0);
+    opacity: 0.7;
+}
+.qpq{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 16px;
+    background:rgb(45, 0, 54);
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid rgb(45, 0, 54);
+    margin: 10px 0;
+}
+.qpq:hover{
+    background: darkmagenta;
+    border-color:darkmagenta; 
+    opacity: .6;
+}
+.first h2,
+.first p{
+    margin-bottom: 10px; 
+}
+.social{
+    margin: 20px;
+}
+.social p{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.social .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social .links a{
+    margin:0 30px;
+}
+.social .links a i{
+    font-size: 2rem;
+}
+.social .facebook:hover{
+    color: #066aff;
+}
+.social .twitter:hover{
+    color: rgb(0, 204, 255);
+}
+.social .portal:hover{
+    color: #ffae00;
+}
