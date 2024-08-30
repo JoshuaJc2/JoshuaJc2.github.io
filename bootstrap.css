@@ -206,11 +206,11 @@
 } 
 
 .contact-info {
-  height: 20vh; /* La altura será el 30% de la altura del viewport */
+  height: 20vh;
 }
 
 .contact-info p {
-  font-size: 1rem; /* Tamaño de fuente relativo */
+  font-size: 1rem; 
 }
 
 
