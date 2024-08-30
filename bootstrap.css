@@ -201,6 +201,23 @@
   }
 }
 
+.privacy-notice {
+  cursor: pointer;
+} 
+
+.contact-info {
+  height: 20vh; /* La altura será el 30% de la altura del viewport */
+}
+
+.contact-info p {
+  font-size: 1rem; /* Tamaño de fuente relativo */
+}
+
+
+.privacy-notice:hover {
+  /* No cambia nada al hacer hover */
+}
+
 .navbar-content{
   max-width:1280px;
   margin:auto;
